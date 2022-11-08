@@ -2,4 +2,4 @@
 
 ## Link de la página 🌐🔗
 
-### https://dantebanos.github.io/Malucky_webPage/
+### https://dantebanos.github.io/MaluckyDelicias_webPage/
