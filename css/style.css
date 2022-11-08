@@ -1,0 +1,266 @@
+nav a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    font-size:32px;
+    font-family:'Tangerine',serif;
+    text-shadow: 4px 4px 4px rgb(141, 134, 134);
+} 
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  
+    }
+    nav li{
+        width: 100px;
+        text-align: center;
+    }
+    li{
+        list-style: none;
+    }
+    #pastel,#dulce,#fruta{
+        margin-left: 180px;
+
+    }
+ 
+    nav li a:hover{
+    color:rgb(225, 56, 56);
+
+    }
+header{
+    background-color: rgb(244, 206, 206);
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+}
+.container-wrapper{
+    display: inline-block;
+    width:100%;
+    height: 174.4px;
+    position: relative;
+}
+    
+    
+.logo{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+}
+nav{
+    position: absolute;
+    top: 65px;
+    left: 200px;
+
+}
+.menu-wrapper{
+}
+.uli{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100% ;    
+    height: 200px;
+    margin-top: 50px;
+}
+
+a img{
+    width: 120px;
+}
+
+.pan,.pastel,.fruit,.galleta{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.an{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+    height: 100%;
+    
+}
+
+.pastel{
+
+    background-color:#b4d1ed;
+
+
+}
+.fruit{
+background-color: rgb(250, 121, 147);
+
+}
+.galleta{
+    background-color: rgb(244, 206, 206);
+
+
+}
+.pan{
+    background-color: #f5daab;
+}
+ul.uli span{
+    position: absolute;
+    font-size: 28px;
+    border-radius: 13px;
+    font-weight: bold;
+    font-family: 'Tangerine';
+    color: rgb(255, 255, 255);
+    border: solid 2px #ffffff;
+    margin-top: 130px;
+    width:170px;
+    height: 40px;
+    text-align: center;
+    background-image: url(/assets/arrow.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: 92%;
+}
+span.pan_span{
+
+    background-color: rgba(228, 193, 133, 0.596);
+
+}
+span.pastel_span{
+
+    background-color:rgba(150, 191, 231, 0.813);
+    margin-top: 200px;
+
+}
+span.galleta_span{
+
+    background-color:#dba8b685;
+
+}
+span.fruta_span{
+    background-color: rgba(239, 96, 125, 0.644);
+
+}
+.men{
+    margin-bottom: 50px;
+}
+
+.antojo{
+    margin-top: 15px;
+    font-size: 36px;
+    font-family:'Tangerine',serif;
+
+}
+
+.container-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.icons{
+    margin-top: 60px;
+    display: flex;
+    width: 25%;
+    justify-content:space-around;
+    
+}
+div.icons i{
+    display: block;
+}
+div.icons i img{
+    width: 40px;
+
+}
+img.arrow{
+    margin-top: 30px;
+    width: 40px;
+}
+.footer-wrapper{
+    width: 100%;
+    height: 220px;
+    background-color: rgb(244, 206, 206);
+    background-color: #f6f6f6;
+    margin-top: 180px;
+}
+.container-inbox{
+    display: inline-block;
+    width: 250px;
+    margin-right: 100px;
+    
+
+}
+.container-phone{
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+}
+
+img.msjfb{
+    width: 32px;
+}
+
+img.phone{
+    width: 37px;
+}
+section.footer-wrapper h3{
+
+    font-family:'Tangerine',serif;
+    font-weight:500;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(21, 20, 20);
+    display: block;
+    position: relative;
+    top: 30px;
+
+
+
+}
+.wrapper-fb-ph{
+    display: flex;
+justify-content: center;
+margin-top: 60px;
+}
+.anc-fb{
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.container-inbox p{
+    font-size: 18px;
+    margin-left: 30px;
+}
+.phone{
+position: relative;
+top: 10px;
+
+}
+/* error*/
+.container-phone p{
+
+    font-size: 18px;
+
+}
+.container-phone p.call{
+
+    font-size: 18px;
+    margin-right: 34px;
+
+}
+p.number{
+    
+display:inline ; 
+font-size: 23px;
+}
+
+div.container-inbox::after{
+    content: " ";
+    position: relative;
+    left: 6.6rem;
+    border-right: 1px solid currentColor;
+    font-size: 37px;
+}
