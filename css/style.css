@@ -54,6 +54,9 @@ nav{
 
 }
 .menu-wrapper{
+    display: block;
+    background-color: blue;
+    height: 220px;
 }
 .uli{
     display: flex;
