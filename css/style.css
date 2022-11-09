@@ -55,7 +55,6 @@ nav{
 }
 .menu-wrapper{
     display: block;
-    background-color: blue;
     height: 220px;
 }
 .uli{
@@ -157,7 +156,6 @@ span.fruta_span{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
 }
 .icons{
     margin-top: 60px;
